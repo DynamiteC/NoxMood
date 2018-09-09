@@ -1,26 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>NoxMood</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://genius.codes"></script>
   </head>
-  <body>
+  <body class='grey darken-4 white-text'>
     <div class="container">
-      <center> <h3>NoxMood</h3> </center>
+      <center> <h3><i class="material-icons">headset</i>NoxMood<i class="material-icons">headset</i></h3> </center>
     </div>
-    <div class="container">
-      <fieldset>
-        <form action="/" method="post">
-          <input name="city" type="text" class="ghost-input" placeholder="Enter a Keyword" required>
-          <input type="submit" class="btn green darken-4" value="Get Track">
-        </form>
-      </fieldset>
-    </div>
+    	<div class='row'>
+      		<div class='col s3 l3 m3'>
+	      		<fieldset>
+	          		<input id="artist" type="text" class="ghost-input green-text text-darken-4" placeholder="Enter ArtistID" required>
+	          		<input type="submit" class="btn green darken-4" value="Get Artist">
+	      		</fieldset>
+	      	</div>
+	      	<div class='col s3 l3 m3'>
+	      		<fieldset>
+	          		<input id="playlist" type="text" class="ghost-input green-text text-darken-4" placeholder="Enter SpotifyID" required>
+	          		<input type="submit" class="btn green darken-4" value="Get Playlist">
+	      		</fieldset>
+	      	</div>
+	      	<div class='col s3 l3 m3'>
+	      		<fieldset>
+	          		<input id="Albums" type="text" class="ghost-input green-text text-darken-4" placeholder="Enter AlbumID" required>
+	          		<input type="submit" class="btn green darken-4" value="Get Albums">
+	      		</fieldset>
+	      	</div>
+	      	<div class='col s3 l3 m3'>
+	      		<fieldset>
+	          		<input id="browse" type="text" class="ghost-input green-text text-darken-4" placeholder="Enter Categories" required>
+	          		<input type="submit" class="btn green darken-4" value="Browse">
+	      		</fieldset>
+	      	</div>
+  		</div>
+    	<div class='row'>
+    		 <div class="progress white-text white">
+      			<div class="indeterminate green darken-4"></div>
+  			</div>
+    	</div>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
   </body>
 </html>

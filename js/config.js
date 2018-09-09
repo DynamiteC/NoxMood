@@ -1,0 +1,21 @@
+var keys = 
+{
+	"spotify":
+	{
+		"url":"https://api.spotify.com/v1/",
+		"clientId":"3fb9ce596dec448fbca5831ebc0c4666",
+		"clientSecret":"b19b6c85842c43a3840e2c6c634e218f"
+	},
+	"genius":
+	{
+		"url":"https://api.genius.com/",
+		"clientId":"UPvAh3Kra6JO7dZYmRjxUiRonq-uZlgyyrYMlMC1sWmVkMhu5m9VF2-GZ1BMyw7E",
+		"clientSecret":"xUs_oHBx1fn_LjhRtsQGPOfJJsVNxF5Lv_OBzq_mgugkbn7CzdVnscVCPbI-LlhooG7qL3inWl1ys7R3Yhv2sw",
+		"accessToken":"zuyGrHDAST1kQJCEfY6u_8BF-3FPCRCKuKq3kc-7abz_C6vvKF_S6yFXRu8R-eF8"
+	},
+	"youtube":
+	{
+		"url":"https://www.googleapis.com/youtube/v3/search/",
+		"accessToken":"AIzaSyBreCjUKDpVcDB3mCVAmt95e1oArg9ESpE"
+	}
+};

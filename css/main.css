@@ -1,62 +1,47 @@
-@font-face {
-    font-family: roboto;
-    src: url(https://fonts.googleapis.com/css?family=Roboto);
+h1 { font-family: Open Sans; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Open Sans; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Open Sans; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Open Sans; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Open Sans; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+.ghost-input {
+  display: block;
+  font-weight:300;
+  width: 100%;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-input:focus {
+  border-bottom:1px solid #ddd;
+}
+.ghost-button {
+  background-color: transparent;
+  border:2px solid #ddd;
+  padding:10px 30px; 
+  min-width: 350px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-button:hover {
+  border:2px solid #515151;
 }
 
 body
 {
-	background-color: #222;
-
-}
-
-input[type=text]
-{
-	border-radius: 3px;
-	font-family: roboto;	
-	border:3px solid white;
-	height:40px;
-	padding-left: 3px;
-	color:#cc0000;
-	font-size: 100%;
-}
-
-button#search
-{
-	height:40px;
-	border-radius: 3px;
-	font-weight: bold;
-	font-family: roboto;
-	background-color:#cc0000;
-	color:white;
-	border:3px solid white;
-}
-
-h3
-{
-	font-weight: bolder;
-}
-
-h3,h4,h5
-{
-	color:white;
-	text-align: center;
-	font-family: roboto;
-}
-
-a
-{
-	color:white;
-	text-decoration: none;
-}
-.change:hover
-{
-	background-color: white;
-	color:#cc0000;
-}
-
-.header
-{
-	color:white;
-	font-size:36px;
-	font-family: roboto;
+  border: 3px solid #195D1E73 !important;
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; 
 }
