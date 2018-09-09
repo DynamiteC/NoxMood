@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+
+body
+{
+	background-color: #222;
+
+}
+
+input[type=text]
+{
+	border-radius: 3px;
+	font-family: roboto;	
+	border:3px solid white;
+	height:40px;
+	padding-left: 3px;
+	color:#cc0000;
+	font-size: 100%;
+}
+
+button#search
+{
+	height:40px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: roboto;
+	background-color:#cc0000;
+	color:white;
+	border:3px solid white;
+}
+
+h3
+{
+	font-weight: bolder;
+}
+
+h3,h4,h5
+{
+	color:white;
+	text-align: center;
+	font-family: roboto;
+}
+
+a
+{
+	color:white;
+	text-decoration: none;
+}
+.change:hover
+{
+	background-color: white;
+	color:#cc0000;
+}
+
+.header
+{
+	color:white;
+	font-size:36px;
+	font-family: roboto;
+}
