@@ -1,0 +1,40 @@
+{
+  "name": "noxmood",
+  "version": "1.0.0",
+  "description": "spotify and something crazy",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "npm": "^6.4.1",
+    "request": "^2.88.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DynamiteC/NoxMood.git"
+  },
+  "keywords": [
+    "spotify",
+    "mood",
+    "music",
+    "lists",
+    "genius",
+    "dynamitec",
+    "noxiousboc"
+  ],
+  "author": "shailssheth@gmail.com, shethshail56@gmail.com, dynamitecrate@gmail.com, shethshails@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DynamiteC/NoxMood/issues"
+  },
+  "homepage": "https://github.com/DynamiteC/NoxMood#readme"
+}
